@@ -1,4 +1,4 @@
-SELECT '∫œº∆' AS product_type, SUM(sale_price)
+SELECT 'ÂêàËÆ°' AS product_type, SUM(sale_price)
   FROM Product
 UNION ALL
 SELECT product_type, SUM(sale_price)

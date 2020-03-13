@@ -1,4 +1,4 @@
 SELECT product_type, COUNT(*)
   FROM Product
-WHERE product_type = 'ายทþ'
+WHERE product_type = '่กฃๆ'
  GROUP BY product_type;

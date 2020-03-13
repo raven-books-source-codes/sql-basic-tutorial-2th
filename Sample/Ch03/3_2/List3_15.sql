@@ -1,4 +1,4 @@
 SELECT purchase_price, COUNT(*)
   FROM Product
- WHERE product_type = 'ายทþ'
+ WHERE product_type = '่กฃๆ'
  GROUP BY purchase_price;

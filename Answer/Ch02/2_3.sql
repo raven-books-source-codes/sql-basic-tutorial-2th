@@ -1,10 +1,10 @@
--- SELECTÓï¾ä¢Ù
+-- SELECTè¯­å¥â‘ 
 SELECT product_name, sale_price, purchase_price
   FROM Product
  WHERE sale_price >= purchase_price + 500;
 
 
--- SELECTÓï¾ä¢Ú
+-- SELECTè¯­å¥â‘¡
 SELECT product_name, sale_price, purchase_price
   FROM Product
  WHERE sale_price - 500 >= purchase_price;

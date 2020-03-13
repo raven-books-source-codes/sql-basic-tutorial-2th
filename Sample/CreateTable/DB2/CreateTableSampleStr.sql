@@ -1,4 +1,4 @@
-﻿-- DDL：创建表
+-- DDL：创建表
 CREATE TABLE SampleStr
 (str1  VARCHAR(40),
  str2  VARCHAR(40),
@@ -21,5 +21,5 @@ INSERT INTO SampleStr (str1, str2, str3) VALUES ('micmic',	      'i',        'I'
 COMMIT;
 
 
--- e[u̓emF
+-- e[uemF
 SELECT * FROM SampleStr;
